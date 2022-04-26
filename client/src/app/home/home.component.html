@@ -1,0 +1,6 @@
+<p-galleria [value]="images" [numVisible]="2">
+  <ng-template pTemplate="item" let-ozge>
+    <img class="sliderImg" [src]="ozge.image" [alt]="ozge.desc" />
+  </ng-template>
+</p-galleria>
+

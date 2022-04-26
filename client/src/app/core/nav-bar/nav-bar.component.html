@@ -1,0 +1,125 @@
+<div class="card">
+  <div class="flex card-container blue-container overflow-hidden">
+    <div
+      class="
+        flex-none flex
+        align-items-center
+        justify-content-center
+        font-bold
+        text-white
+        m-2
+        px-5
+        py-3
+        border-round
+      "
+    >
+      <img
+        src="/assets/images/logo.png"
+        alt="logo"
+        [routerLink]="['/']"
+        class="logo"
+      />
+    </div>
+    <div
+      class="
+        flex-grow-1 flex
+        align-items-center
+        justify-content-center
+        font-bold
+        text-white
+        m-2
+        px-5
+        py-3
+        border-round
+      "
+    >
+      <button
+        [routerLink]="['/']"
+        pButton
+        type="button"
+        label="Home"
+        class="p-button-link"
+      ></button>
+      <button
+        [routerLink]="['/shop']"
+        pButton
+        type="button"
+        label="Shop"
+        class="p-button-link"
+      ></button>
+      <button
+        [routerLink]="['/']"
+        pButton
+        type="button"
+        label="Contact"
+        class="p-button-link"
+      ></button>
+    </div>
+    <div
+      class="
+        flex-none flex
+        align-items-center
+        justify-content-center
+        font-bold
+        text-black
+        m-2
+        px-5
+        py-3
+        border-round
+      "
+    >
+      <div class="mr-3">
+        <a routerLink="/basket">
+        <i
+          class="pi pi-shopping-cart"
+          style="font-size: 2rem"
+          pBadge
+          value="3"
+        ></i>
+        <div *ngIf="(basket$ | async) as basket" class="cart-no">{{basket.items.length}}</div>
+      </a>
+      </div>
+
+      <button
+        pButton
+        type="button"
+        class="
+          p-button-info
+          flex
+          align-items-center
+          justify-content-center
+          w-6rem
+          h-2rem
+          font-bold
+          border-round
+          m-2
+          h-4rem
+          font-bold
+          text-black
+          border-round
+          m-2
+        "
+      >
+        Login
+      </button>
+      <button
+        pButton
+        type="button"
+        class="
+          p-button-info
+          flex
+          align-items-center
+          justify-content-center
+          w-7rem
+          h-4rem
+          font-bold
+          text-black
+          border-round
+          m-2
+        "
+      >
+        Sign Up
+      </button>
+    </div>
+  </div>
+</div>

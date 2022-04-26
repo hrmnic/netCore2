@@ -1,0 +1,41 @@
+<div class="grid">
+  <button
+    class="test-error"
+    pButton
+    type="button"
+    label="500 Error"
+    (click)="get500Error()"
+  ></button>
+  <button
+    class="test-error"
+    pButton
+    type="button"
+    label="404 Error"
+    (click)="get404Error()"
+  ></button>
+  <button
+    class="test-error"
+    pButton
+    type="button"
+    label="400 Error"
+    (click)="get400Error()"
+  ></button>
+  <button
+    class="test-error"
+    pButton
+    type="button"
+    label="400 Validation Error"
+    (click)="get400ValidationError()"
+  ></button>
+  <div class="grid" *ngIf="validationError">
+    <!-- <ul class="text-danger">
+      <li *ngFor="let error of validationError">
+        {{ error }}
+      </li>
+    </ul> -->
+    <br />
+  </div>
+</div>
+<div>
+  {{ validationError }}
+</div>

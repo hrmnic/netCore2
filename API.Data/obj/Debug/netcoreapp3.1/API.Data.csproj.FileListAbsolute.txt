@@ -1,0 +1,12 @@
+C:\Users\hrmni\Desktop\E-Commerce\src\API.Data\bin\Debug\netcoreapp3.1\API.Data.deps.json
+C:\Users\hrmni\Desktop\E-Commerce\src\API.Data\bin\Debug\netcoreapp3.1\API.Data.dll
+C:\Users\hrmni\Desktop\E-Commerce\src\API.Data\bin\Debug\netcoreapp3.1\API.Data.pdb
+C:\Users\hrmni\Desktop\E-Commerce\src\API.Data\obj\Debug\netcoreapp3.1\API.Data.AssemblyInfoInputs.cache
+C:\Users\hrmni\Desktop\E-Commerce\src\API.Data\obj\Debug\netcoreapp3.1\API.Data.AssemblyInfo.cs
+C:\Users\hrmni\Desktop\E-Commerce\src\API.Data\obj\Debug\netcoreapp3.1\API.Data.csproj.CoreCompileInputs.cache
+C:\Users\hrmni\Desktop\E-Commerce\src\API.Data\obj\Debug\netcoreapp3.1\API.Data.dll
+C:\Users\hrmni\Desktop\E-Commerce\src\API.Data\obj\Debug\netcoreapp3.1\API.Data.pdb
+C:\Users\hrmni\Desktop\E-Commerce\src\API.Data\bin\Debug\netcoreapp3.1\API.Data.runtimeconfig.json
+C:\Users\hrmni\Desktop\E-Commerce\src\API.Data\bin\Debug\netcoreapp3.1\API.Data.runtimeconfig.dev.json
+C:\Users\hrmni\Desktop\E-Commerce\src\API.Data\obj\Debug\netcoreapp3.1\API.Data.genruntimeconfig.cache
+C:\Users\hrmni\desktop\e-commerce\src\API.Data\obj\Debug\netcoreapp3.1\API.Data.csprojAssemblyReference.cache

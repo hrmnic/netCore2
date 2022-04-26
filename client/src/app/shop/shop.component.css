@@ -1,0 +1,27 @@
+.p-button-secondary{
+    margin-left: 10px;
+}
+.p-button-warning{
+    margin-left:10px;
+}
+.paging{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.shop-dropdown .p-dropdown{
+    width:100%;
+}
+
+.shopMyDropdown
+{
+    
+    width: 100% ;
+}
+.searchButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+}
